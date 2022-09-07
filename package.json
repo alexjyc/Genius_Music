@@ -1,0 +1,16 @@
+{
+  "name": "genius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "genius.js",
+  "scripts": {
+    "start": "node genius.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "genius-lyrics": "^4.3.5",
+    "mongodb": "^4.2.2"
+  }
+}

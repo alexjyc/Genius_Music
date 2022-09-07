@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Karaoke Master</title>
+    <style type = "text/css">
+        h1{color: #2565AE}
+        body {
+            background-color: #ADD8E6;
+            color: #000000;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</style>
+</head>
+<body>
+    <h1>Karaokemaster</h1>
+    <a href = "https://comp20final.herokuapp.com/favorites">Favorites</a><br><br>
+    Please enter a song name<br><br>
+    <form name='info' method='post' action='https://comp20final.herokuapp.com/lyrics' onSubmit="return validate()">
+        Song Name: <input type="text"  name='song' id='song'/><br><br>
+        <input type = "submit" src="a1.png" /> 
+    </form>
+    
+    <script language="javascript">
+        window.onload = function () {
+            search = document.getElementById("song");
+        }
+        function validate() {
+            if (search.value == "") {
+                alert("Must enter a song name");
+                 return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
