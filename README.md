@@ -1,4 +1,4 @@
-# comp20-final-project
+# Genius Music App
 
 APP URL: https://comp20final.herokuapp.com/
 
